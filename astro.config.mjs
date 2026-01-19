@@ -1,8 +1,14 @@
-import { defineConfig } from 'astro/config';
+// @ts-check
+import { defineConfig } from "astro/config";
+import tailwindcss from "@tailwindcss/vite";
 
+// https://astro.build/config
 export default defineConfig({
-  // Replace 'ovaridavid' with your GitHub username
   site: 'https://ovaridavid.github.io',
-  // Replace 'ovari-portfolio' with your repo name
-  base: '/ovari-portfolio', 
+  base: '/ovari-portfolio/',  // ← trailing slash is important here!
+  vite: {
+    plugins: [tailwindcss()],
+  },
+  // Optional: cleaner URLs (no forced trailing slashes on pages)
+  trailingSlash: 'never',
 });
