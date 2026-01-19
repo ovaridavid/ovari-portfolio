@@ -1,6 +1,6 @@
 export const siteConfig = {
-  name: "Dávid Óvári /ˈoːvaːri/",
-  title: "I build applications for a living, delivering ideas right into your pocket",
+  name: "Dávid Óvári",
+  title: "/ˈoːvaːri/\nI build applications for a living, delivering ideas right into your pocket",
   description: "Portfolio website of Dávid Óvári",
   accentColor: "#4F93FF",
   social: {
