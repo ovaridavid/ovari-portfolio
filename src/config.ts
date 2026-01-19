@@ -1,92 +1,68 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
-  accentColor: "#1d4ed8",
+  name: "Dávid Óvári /ˈoːvaːri/",
+  title: "I build applications for a living, delivering ideas right into your pocket",
+  description: "Portfolio website of Dávid Óvári",
+  accentColor: "#4F93FF",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "ovari.david.od@gmail.com",
+    linkedin: "https://www.linkedin.com/in/ovaridavid/",
+    twitter: "https://x.com/DavidOvari",
+    github: "https://github.com/ovaridavid",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "iOS Developer with hands-on experience building scalable applications used by millions. I specialize in writing clean, testable Swift code—leveraging UIKit & SwiftUI, RxSwift and Combine within modern architectures to ensure long-term maintainability. I enjoy working in collaborative teams to build high-quality features that balance performance and a great user experience!",
+  skills: ["Swift", "SwiftUI", "UIKit", "RxSwift", "Combine"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "DrinkSpot: Daily Drink Tracker",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "DrinkSpot is a stylish and intuitive iOS app designed to simplify daily hydration tracking, allowing users to monitor water and various beverages with just a tap while setting personalized goals and receiving timely reminders. It offers comprehensive features like nutrition monitoring for calories, carbs, and proteins, a progress calendar to visualize achievements, and alerts for recommended caffeine or sugar intake to promote healthier habits. With seamless Apple Health integration, interactive charts, widgets, and a clean user interface, DrinkSpot helps users stay hydrated effortlessly and has been featured on App Hackers and Product Hunt.",
+      link: "https://apps.apple.com/us/app/drinkspot-daily-drink-tracker/id1545770917",
+      skills: ["Swift", "SwiftUI", "Apple Health", "Widgets"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Ribbitrail",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
+        "Coming soon...",
+      link: "ribbitrail.com",
+      skills: ["iOS", "Swift"],
+    }
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "OTP Bank Magyarország",
+      title: "Medior iOS Developer",
+      dateRange: "Apr 2023 - Dec 2025",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Drove digital transformation for Hungary’s largest retail bank serving 1M+ users",
+        "Built native iOS flows for personal loans and credit account applications",
+        "Developed overdraft management and Fizz voucher integration",
+        "Engineered fully digital account opening for both adult and junior users",
+        "Implemented advanced KYC features, including Video ID and NFC passport reading",
+        "Optimized user onboarding with A/B testing capabilities",
+        "Enhanced UX via biometric authentication, push notifications, and deep linking",
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "CodeYard Kft.",
+      title: "Junior iOS Developer",
+      dateRange: "Jul 2021 - Mar 2023",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "Contributed to the Xeropan language learning app",
+        "Implemented secure integrations with the KRÉTA school system for Xeropan Classroom",
+        "Enhanced core wallet functionalities, transaction handling, and secure data storage for BlockBen",
+        "Supported onboarding processes, KYC integration, dashboard improvements, and modular UI components in Benker, a blockchain-based banking app",
       ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
-    },
+    }
   ],
   education: [
     {
-      school: "University Name",
+      school: "University of Szeged",
       degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      dateRange: "2019 -",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Pursued Computer Science studies before transitioning to full-time iOS development",
       ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
-    },
+    }
   ],
 };
