@@ -18,14 +18,21 @@ export const siteConfig = {
       description:
         "DrinkSpot is a stylish and intuitive iOS app designed to simplify daily hydration tracking, allowing users to monitor water and various beverages with just a tap while setting personalized goals and receiving timely reminders. It offers comprehensive features like nutrition monitoring for calories, carbs, and proteins, a progress calendar to visualize achievements, and alerts for recommended caffeine or sugar intake to promote healthier habits. With seamless Apple Health integration, interactive charts, widgets, and a clean user interface, DrinkSpot helps users stay hydrated effortlessly and has been featured on App Hackers and Product Hunt.",
       link: "https://apps.apple.com/us/app/drinkspot-daily-drink-tracker/id1545770917",
-      skills: ["Swift", "SwiftUI", "Apple Health", "Widgets"],
+      skills: ["Swift", "SwiftUI", "iOS", "Apple Health", "Widgets", "Hydration"],
+    },
+    {
+      name: "Steeplin",
+      description:
+        "Steeplin reimagines event discovery by utilizing an intuitive card-based swipe interface, allowing users to effortlessly browse local happenings. Steeplin’s matching algorithm connects like-minded individuals based on common interests, but with a crucial twist: matches are anchored to specific events that are already set in time and place. This ensures that every connection has a clear purpose, facilitating immediate and meaningful face-to-face meetups.",
+      link: "ribbitrail.com",
+      skills: ["Community", "Face-to-face", "Meetups", "Connections", "Social", "Events", "iOS"],
     },
     {
       name: "Ribbitrail",
       description:
         "Coming soon...",
       link: "ribbitrail.com",
-      skills: ["iOS", "Swift"],
+      skills: ["Work in Progress"],
     }
   ],
   experience: [
