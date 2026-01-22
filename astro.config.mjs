@@ -4,8 +4,8 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://ovaridavid.github.io',
-  base: '/ovari-portfolio/',  // ← trailing slash is important here!
+  site: 'https://ovari.dev',
+  base: '/',  // ← trailing slash is important here!
   vite: {
     plugins: [tailwindcss()],
   },
